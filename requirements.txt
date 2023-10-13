@@ -1,0 +1,5 @@
+Pillow==8.3.2  # For image processing
+pytesseract==0.3.8  # For OCR (font recognition)
+PyPDF2==1.26.0  # For PDF handling
+ai2pdf==1.2.3  # For AI to PDF conversion
+eps2pdf==0.1.16  # For EPS to PDF conversion

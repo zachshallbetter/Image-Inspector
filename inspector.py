@@ -1,7 +1,7 @@
 from src.config.config_loader import load_config
 
 # Load the configuration
-config_path = "config/config.json"
+config_path = "./src/config/config.json"
 config = load_config(config_path)
 
 # Access configuration options
