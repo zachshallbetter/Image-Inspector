@@ -1,0 +1,5 @@
+{
+  "image_formats": [".pdf", ".ai", ".eps", ".png", ".jpg", ".tiff"],
+  "enable_font_recognition": true,
+  "max_image_size": 10
+}
