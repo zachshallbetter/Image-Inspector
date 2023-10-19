@@ -3,12 +3,17 @@
 # Get the directory where the script is located
 script_dir=$(dirname "$0")
 
-# Create the tarball, excluding specified files and directories
-tar -zcvf "$script_dir/inspector_filtered.tar.gz" \
-    --exclude '.DS_Store' \
-    --exclude '.git' \
-    --exclude '__pycache__' \
-    --exclude 'venv' \
-    --exclude '__init__.py' \
-    --exclude '*.tar.gz' \
+# Get the last commit id
+commit_id=$(git rev-parse --short HEAD)
+
+# Define the project name
+project_name="inspector"
+
+# Define the output filename
+output_filename="${project_name}-${commit_id}.tar.gz"
+
+# Read .gitignore and exclude those files/directories while creating the tarball
+tar -zcvf "$script_dir/$output_filename" \
+    --exclude-vcs \
+    --exclude-from "$script_dir/../.gitignore" \
     .

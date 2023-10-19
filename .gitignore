@@ -1,5 +1,4 @@
 .DS_Store
-__pycache__
 *.pyc
 *.pyo
 *.pyd
@@ -9,3 +8,9 @@ dist/
 build/
 venv/
 *.tar.gz
+.pytest_cache
+.benchmarks
+logs/*.log
+*/**/__pycache__
+__pycache__
+scripts/inspector-*

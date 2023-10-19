@@ -8,6 +8,9 @@ Inspector is a command-line tool designed for print-and-cut shops to analyze and
   - [Table of Contents](#table-of-contents)
   - [Features](#features)
   - [Getting Started](#getting-started)
+  - [Running Tests](#running-tests)
+  - [Logging](#logging)
+  - [Data Directory](#data-directory)
     - [Prerequisites](#prerequisites)
     - [Installation](#installation)
   - [Usage](#usage)
@@ -22,6 +25,8 @@ Inspector is a command-line tool designed for print-and-cut shops to analyze and
   - [Project Structure](#project-structure)
   - [Contributing](#contributing)
   - [License](#license)
+  - [Additional Documentation](#additional-documentation)
+  - [Extending the Tool](#extending-the-tool)
 
 ## Features
 
@@ -40,6 +45,15 @@ Inspector offers a range of features to facilitate image comprehension in the co
 - **Customizable Configuration:** Easily configure Inspector through a JSON configuration file to adapt it to your specific needs.
 
 ## Getting Started
+
+## Running Tests
+*Information on how to set up and run tests is missing. Provide guidelines on how to run tests for this application.*
+
+## Logging
+*Details about logging mechanisms, where logs are stored, and how to interpret them are missing.*
+
+## Data Directory
+*Explain what the `data/` directory is used for and what kind of data is stored there.*
 
 ### Prerequisites
 
@@ -161,7 +175,7 @@ Inspector follows a structured project layout:
 
 - `README.md`: Documentation for the project, including installation and usage instructions.
 
-- `config/`: Directory for storing configuration files.
+- `src/config/: Directory for storing configuration files.
   - `config.json`: JSON file for configuring Inspector's behavior.
 
 - `src/`: Source code directory.
@@ -189,6 +203,14 @@ Contributions to Inspector are welcome! If you find any issues or have ideas for
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-```
 
-You can use this updated `README.md` for your Inspector project.
+## Additional Documentation
+For more details on the architecture and functionalities of the Inspector tool, please refer to the following documents in the `docs/` directory:
+- [Overview](docs/overview.md)
+- [Architecture](docs/architecture.md)
+
+## Extending the Tool
+The Inspector tool is designed for extensibility. New modules for additional analyses can be added in the `src/` directory. Configuration for new modules should be placed in `src/config/`.
+- [Recommendations](docs/recommendations.md): Suggested improvements for the project.
+
+- [JSON Parameters Strategy](docs/parameters.md): Strategy for managing JSON configuration parameters.
