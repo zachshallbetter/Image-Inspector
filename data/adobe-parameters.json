@@ -1,0 +1,65 @@
+{
+    "AdobeFileInformation": {
+        "FileName": "",
+        "FileSize": "",
+        "CreationDate": "",
+        "LastModifiedDate": "",
+        "AdobeFileFormat": ["AI", "PDF", "EPS", "PSD"],
+        "VersionNumber": "",
+        "AdobeXMP": "",
+        "HistoryLog": "",
+        "LinkedFiles": [],
+        "EmbeddedFonts": []
+    },
+    "ContentDetails": {
+        "Artboards": {
+            "Count": "",
+            "Names": [],
+            "Sizes": []
+        },
+        "PathsShapesTextItems": {
+            "Paths": "",
+            "Shapes": "",
+            "TextItems": ""
+        },
+        "LinkedItems": [],
+        "PlacedItems": []
+    },
+    "ColorProfilesAndSwatches": {
+        "ColorProfile": "",
+        "Swatches": [],
+        "SpotColors": []
+    },
+    "LayerAndGroupInformation": {
+        "TotalLayers": "",
+        "LayerNames": [],
+        "LayerComps": [],
+        "LayerEffects": []
+    },
+    "GuidesAndGrids": {
+        "Guides": [],
+        "GridSettings": ""
+    },
+    "DocumentSetup": {
+        "DocumentSize": {
+            "Width": "",
+            "Height": ""
+        },
+        "Bleed": "",
+        "Slug": ""
+    },
+    "OutputIntent": {
+        "OutputProfiles": []
+    },
+    "TextInformation": {
+        "FontUsage": [],
+        "TextContent": ""
+    },
+    "ResourceUtilization": {
+        "LinkedResourceSize": ""
+    },
+    "SoftwareInformation": {
+        "Software": "",
+        "Version": ""
+    }
+}

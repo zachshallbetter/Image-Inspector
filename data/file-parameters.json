@@ -1,0 +1,50 @@
+{
+    "FileInformation": {
+        "FileName": "",
+        "FileSize": "",
+        "FileFormat": "",
+        "FileExtension": "",
+        "CreationDate": "",
+        "LastModifiedDate": "",
+        "Checksum": {
+            "MD5": "",
+            "SHA1": "",
+            "SHA256": ""
+        },
+        "Permissions": {
+            "Read": "",
+            "Write": "",
+            "Execute": ""
+        },
+        "VersionNumber": "",
+        "ChangeLog": [],
+        "Metadata": {
+            "Title": "",
+            "Author": "",
+            "Description": "",
+            "Keywords": [],
+            "Language": ""
+        },
+        "FileDependencies": {
+            "LinkedFiles": [],
+            "EmbeddedFiles": [],
+            "EmbeddedFonts": []
+        },
+        "FileHistory": {
+            "PreviousVersions": [],
+            "RevisionComments": []
+        },
+        "FileSignature": "",
+        "FileComments": [],
+        "CustomMetadata": {}
+    },
+    "SoftwareInformation": {
+        "SoftwareName": "",
+        "SoftwareVersion": "",
+        "SoftwareVendor": ""
+    },
+    "OperatingSystem": {
+        "OSName": "",
+        "OSVersion": ""
+    }
+}

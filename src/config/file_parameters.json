@@ -1,0 +1,91 @@
+{
+    "FileInformation": {
+        "FileName": "",
+        "FileSize": "",
+        "CreationDate": "",
+        "LastModifiedDate": "",
+        "FileFormat": {
+            "Format": "",
+            "Version": ""
+        },
+        "Metadata": {
+            "Title": "",
+            "Author": "",
+            "Description": "",
+            "Keywords": []
+        },
+        "Checksum": "",
+        "Permissions": "",
+        "VersionNumber": "",
+        "ChangeLog": "",
+        "LinkedFiles": [],
+        "EmbeddedFonts": [],
+        "AdobeXMP": "",
+        "HistoryLog": ""
+    },
+    "ImageSpecifications": {
+        "Resolution": "",
+        "AspectRatio": "",
+        "ColorSpace": "",
+        "NumberOfColors": "",
+        "Dimensions": {
+            "Width": "",
+            "Height": ""
+        },
+        "Orientation": "",
+        "Margins": {
+            "Top": "",
+            "Bottom": "",
+            "Left": "",
+            "Right": ""
+        },
+        "Bleed": {
+            "Top": "",
+            "Bottom": "",
+            "Left": "",
+            "Right": ""
+        },
+        "Artboards": [],
+        "PathsShapesTextItems": [],
+        "ObjectCount": "",
+        "CompressionType": "",
+        "CompressionRatio": "",
+        "Background": "",
+        "Layers": [],
+        "LayerGroups": [],
+        "LayerEffects": [],
+        "LayerComps": [],
+        "LayerSets": [],
+        "LayerBlendingRanges": [],
+        "LayerBlendingModes": [],
+        "LayerMasks": [],
+        "LayerFilters": [],
+        "Layer": [],
+        "LayerStyles": []
+    },
+    "ColorManagement": {
+        "ICCProfile": "",
+        "ColorMatchingMethod": "",
+        "Swatches": [],
+        "SpotColors": "",
+        "ColorSettings": "",
+        "ColorSpace": "",
+        "ColorProfile": ""
+    },
+    "ContentAnalysis": {
+        "LayerAnalysis": [],
+        "ColorPalette": [],
+        "Transparency": "",
+        "BoundingBoxes": [],
+        "LinkedItems": [],
+        "PlacedItems": [],
+        "LayerComps": [],
+        "LayerEffects": [],
+        "Guides": [],
+        "GridSettings": ""
+    },
+    "TextInformation": {
+        "FontUsage": [],
+        "TextContent": ""
+    }
+}
