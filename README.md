@@ -195,15 +195,7 @@ Inspector follows a structured project layout:
   - `test_layer_identification.py`: Unit tests for layer identification functions.
   - `test_font_recognition.py`: Unit tests for font recognition functions.
   - `test_utils.py`: Unit tests for utility functions.
-
-## Contributing
-
-Contributions to Inspector are welcome! If you find any issues or have ideas for enhancements, please open an issue or submit a pull request on the [Inspector GitHub repository](https://github.com/your-username/Inspector).
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
+ 
 ## Additional Documentation
 For more details on the architecture and functionalities of the Inspector tool, please refer to the following documents in the `docs/` directory:
 - [Overview](docs/overview.md)
@@ -215,7 +207,11 @@ The Inspector tool is designed for extensibility. New modules for additional ana
 
 - [JSON Parameters Strategy](docs/parameters.md): Strategy for managing JSON configuration parameters.
 
-echo "## active_line 2 ##"
-## Contour Detection
-echo "## active_line 3 ##"
-We have added a new function `detect_contours()` in the `src` package for contour detection.
+
+## Contributing
+
+Contributions to Inspector are welcome! If you find any issues or have ideas for enhancements, please open an issue or submit a pull request on the [Inspector GitHub repository](https://github.com/your-username/Inspector).
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
