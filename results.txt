@@ -1,2 +1,0 @@
-{"Dimensions": [2048, 2048], "FileName": "vehicle-body.psd", "Fonts": [], "Color Mode": 3}
-null
