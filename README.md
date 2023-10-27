@@ -1,4 +1,4 @@
-# Inspector
+# Image Inspector
 
 Inspector is a command-line tool designed for print-and-cut shops to analyze and comprehend design files in various formats, ensuring they meet specific criteria before proceeding with printing and cutting processes. Inspector focuses on image analysis, offering capabilities for identifying spot colors, layers, fonts, and other essential elements within design files. This tool streamlines the quality control process and aids in error detection, enhancing the efficiency and accuracy of print-and-cut operations.
 
