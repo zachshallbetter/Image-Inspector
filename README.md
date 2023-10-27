@@ -214,3 +214,8 @@ The Inspector tool is designed for extensibility. New modules for additional ana
 - [Recommendations](docs/recommendations.md): Suggested improvements for the project.
 
 - [JSON Parameters Strategy](docs/parameters.md): Strategy for managing JSON configuration parameters.
+
+echo "## active_line 2 ##"
+## Contour Detection
+echo "## active_line 3 ##"
+We have added a new function `detect_contours()` in the `src` package for contour detection.

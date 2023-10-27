@@ -1,22 +1,26 @@
-# src/layer_identification.py
-
 import argparse
+import fitz  # PyMuPDF
 
 
-def identify_layers(image_path):
-    # Implement preliminary layer identification here
-    # For PDF Files: Extract layers from content structure
-    # For AI and EPS Files: Parse and extract layer information
-    # For Image Files (PNG, JPG, TIFF): Handle layers if supported
-    pass
+def identify_layers(pdf_path):
+    # Load the PDF file
+    pdf = fitz.open(pdf_path)
+
+    # Extract information about layers (OCGs)
+    layers = pdf.get_ocgs()
+    layer_info = {layer.name: layer for layer in layers}
+
+    # List existing layers
+    existing_layers = list(layer_info.keys())
+    return existing_layers
 
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Inspector Layer Identification")
-    parser.add_argument("--input", required=True, help="Path to the input image file")
+    parser.add_argument("--input", required=True, help="Path to the input PDF file")
     args = parser.parse_args()
 
-    image_path = args.input
-    layers = identify_layers(image_path)
+    pdf_path = args.input
+    layers = identify_layers(pdf_path)
     print("Identified Layers:")
     print(layers)
